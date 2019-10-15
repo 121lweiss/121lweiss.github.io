@@ -27,5 +27,7 @@
 }
 jeep {
     position: center;
-    scale: 50%;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
 }
