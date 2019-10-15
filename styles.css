@@ -25,7 +25,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-jeep {
+.jeep {
     position: center;
     border-radius: 8px;
     max-width: 100%;
