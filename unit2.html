@@ -33,7 +33,17 @@
          <a class="nav-link" href="#">About Me</a>
        </li>
        <li class="nav-item">
-         <a class="nav-link" href="units.html">Units <span class="sr-only">(current)</span></a>
+         <div class="btn-group">
+           <a class="nav-item"href="units.html"><button type="button" class="btn">Units</button></a>
+  <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="unit1.html">Unit 1</a>
+    <a class="dropdown-item" href="unit2.html">Unit 2 <span class="sr-only">(current)</span></a>
+    <a class="dropdown-item" href="comingsoon.html">Unit 3</a>
+  </div>
+</div>
        </li>
        <li class="nav-item">
          <a class="nav-link" href="#">Contact Me</a>
@@ -43,11 +53,13 @@
  </nav>
   <!--navbar-->
   <!--October 3-->
+    <div class="container-fluid">
     <button onclick="document.getElementById('myImage').src='ll120_teal.jpg'">Teal</button>
 
 <img id="myImage" src="ll120_teal.jpg" style="width:500px">
 
 <button onclick="document.getElementById('myImage').src='ll120_green.jpg'">Green</button>
+    </div>
 </body>
 
 </html>
